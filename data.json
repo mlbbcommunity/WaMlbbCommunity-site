@@ -1,0 +1,33 @@
+{
+  "heroes": [
+    {
+      "name": "Kagura",
+      "image": "assets/kagura.png",
+      "recommended_build": ["Enchanted Talisman", "Lightning Truncheon", "Holy Crystal"]
+    },
+    {
+      "name": "Gusion",
+      "image": "assets/gusion.png",
+      "recommended_build": ["Calamity Reaper", "Demon Hunter Sword", "Holy Crystal"]
+    },
+    {
+      "name": "Layla",
+      "image": "assets/layla.png",
+      "recommended_build": ["Demon Hunter Sword", "Berserker's Fury", "Scarlet Phantom"]
+    }
+  ],
+  "members": [
+    {
+      "username": "Player1",
+      "cc": 120
+    },
+    {
+      "username": "Player2",
+      "cc": 95
+    },
+    {
+      "username": "Player3",
+      "cc": 75
+    }
+  ]
+}
