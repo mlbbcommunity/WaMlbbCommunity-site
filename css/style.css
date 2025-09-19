@@ -134,3 +134,28 @@ body{
   .modal{grid-template-columns:1fr}
   .large-avatar{height:180px}
 }
+
+
+/* Mobile & overflow fixes */
+body, html {
+  overflow-x: hidden !important;
+}
+.header, .banner, .grid, .footer {
+  max-width: 100% !important;
+  overflow-x: hidden !important;
+}
+.nav {
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.nav a {
+  flex: 1 1 auto;
+  text-align: center;
+}
+@media (max-width:700px){
+  .nav {flex-direction: row;justify-content: center;}
+  .nav a {font-size: 14px;padding:6px 8px}
+  .header{flex-wrap:wrap;gap:12px}
+  .banner{border-radius:0;margin:0;padding:20px}
+  .grid{grid-template-columns:repeat(auto-fit,minmax(160px,1fr));padding:0 10px}
+}
