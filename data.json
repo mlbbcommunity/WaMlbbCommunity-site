@@ -1,0 +1,21 @@
+{
+"heroes": [
+{
+"name": "Kagura",
+"image": "assets/kagura.png",
+"role": "Mage",
+"builds": [
+{"items":[{"name":"Enchanted Talisman","image":"assets/items/
+talisman.png"},{"name":"Lightning Truncheon","image":"assets/items/
+truncheon.png"},{"name":"Holy Crystal","image":"assets/items/
+holy_crystal.png"}], "recommended_by":"0729549478"}
+]
+}
+],
+"bots": [
+{"name":"HeroHelper","image":"assets/
+bot1.png","short_description":"Provides hero stats and build 
+suggestions.","commands":[{"command":"/hero","description":"Get hero info"},
+{"command":"/build","description":"Get recommended builds"}]}
+]
+}
