@@ -1,39 +1,21 @@
 {
-  "heroes": [
-    {
-      "name": "Kagura",
-      "image": "assets/kagura.png",
-      "recommended_build": ["Enchanted Talisman", "Lightning Truncheon", "Holy Crystal"]
-    },
-    {
-      "name": "Gusion",
-      "image": "assets/gusion.png",
-      "recommended_build": ["Calamity Reaper", "Demon Hunter Sword", "Holy Crystal"]
-    },
-    {
-      "name": "Layla",
-      "image": "assets/layla.png",
-      "recommended_build": ["Demon Hunter Sword", "Berserker's Fury", "Scarlet Phantom"]
-    }
-  ],
-  "bots": [
-    {
-      "name": "HeroHelper",
-      "image": "assets/bot1.png",
-      "short_description": "Provides hero stats and build suggestions.",
-      "commands": [
-        {"command": "/hero", "description": "Get hero info"},
-        {"command": "/build", "description": "Get recommended builds"}
-      ]
-    },
-    {
-      "name": "RankBot",
-      "image": "assets/bot2.png",
-      "short_description": "Shows leaderboard and player ranks.",
-      "commands": [
-        {"command": "/leaderboard", "description": "Show top players"},
-        {"command": "/myrank", "description": "Show your current rank"}
-      ]
-    }
-  ]
+"heroes": [
+{
+"name": "Kagura",
+"image": "assets/kagura.png",
+"role": "Mage",
+"builds": [
+{"items":[{"name":"Enchanted Talisman","image":"assets/items/
+talisman.png"},{"name":"Lightning Truncheon","image":"assets/items/
+truncheon.png"},{"name":"Holy Crystal","image":"assets/items/
+holy_crystal.png"}], "recommended_by":"0729549478"}
+]
+}
+],
+"bots": [
+{"name":"HeroHelper","image":"assets/
+bot1.png","short_description":"Provides hero stats and build 
+suggestions.","commands":[{"command":"/hero","description":"Get hero info"},
+{"command":"/build","description":"Get recommended builds"}]}
+]
 }
