@@ -16,18 +16,24 @@
       "recommended_build": ["Demon Hunter Sword", "Berserker's Fury", "Scarlet Phantom"]
     }
   ],
-  "members": [
+  "bots": [
     {
-      "username": "Player1",
-      "cc": 120
+      "name": "HeroHelper",
+      "image": "assets/bot1.png",
+      "short_description": "Provides hero stats and build suggestions.",
+      "commands": [
+        {"command": "/hero", "description": "Get hero info"},
+        {"command": "/build", "description": "Get recommended builds"}
+      ]
     },
     {
-      "username": "Player2",
-      "cc": 95
-    },
-    {
-      "username": "Player3",
-      "cc": 75
+      "name": "RankBot",
+      "image": "assets/bot2.png",
+      "short_description": "Shows leaderboard and player ranks.",
+      "commands": [
+        {"command": "/leaderboard", "description": "Show top players"},
+        {"command": "/myrank", "description": "Show your current rank"}
+      ]
     }
   ]
 }
